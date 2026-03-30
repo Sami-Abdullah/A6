@@ -1,3 +1,4 @@
+import Banner from "./Components/Banner"
 import Navbar from "./Components/Navbar"
 
 
@@ -10,6 +11,7 @@ function App() {
       {/* navbar */}
       <Navbar></Navbar>
       {/* banner */}
+      <Banner></Banner>
       {/* stats */}
       {/* 
           products = (heading+buttons) + productshowing(card)
