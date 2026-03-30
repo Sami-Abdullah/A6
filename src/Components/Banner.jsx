@@ -22,11 +22,11 @@ const Banner = () => {
             Explore Products
           </p>
         </div>
-        <div className='flex space-x-2'>
+        <div className='flex space-x-4'>
           <GradiantButton text={"Explore Products"}></GradiantButton>
-          <button className='flex items-center gap-3'><CiPlay1 />Watch Demo</button>
+          <GradiantTextButton icon={<CiPlay1 ></CiPlay1>} text={"Watch Demo"}>
+          </GradiantTextButton>
         </div>
-        <GradiantTextButton text={<CiPlay1 />Watch Demo}></GradiantTextButton>
       </div>
       {/* right section */}
       <div >
