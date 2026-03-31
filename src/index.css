@@ -1,8 +1,16 @@
 @import "tailwindcss";
 @plugin "daisyui";
 
+
 * {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
+}
+:root {
+  --primary-gradient: linear-gradient(
+    to right,
+    rgba(79,57,246,1),
+    rgba(149,20,250,1)
+  );
 }

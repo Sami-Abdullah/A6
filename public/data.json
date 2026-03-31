@@ -1,0 +1,90 @@
+[
+  {
+    "id": "prod_01",
+    "name": "Titanium Core",
+    "description": "The foundational suite for high-performance teams. Includes advanced task tracking and resource allocation.",
+    "price": 29.99,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["Unlimited Projects", "Real-time Sync", "24/7 Priority Support", "Custom Dashboards"],
+    "icon": "FiCpu"
+  },
+  {
+    "id": "prod_02",
+    "name": "Forge Analytics",
+    "description": "Deep dive into your data with AI-driven insights and automated reporting tools.",
+    "price": 499.00,
+    "period": "one-time",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": ["AI Pattern Recognition", "Export to CSV/PDF", "Custom API Access", "Historical Data Archiving"],
+    "icon": "FiBarChart2"
+  },
+  {
+    "id": "prod_03",
+    "name": "Zenith Cloud",
+    "description": "Secure, scalable cloud storage specifically optimized for high-resolution assets and media files.",
+    "price": 12.50,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["5TB Encrypted Storage", "Auto-versioning", "Smart Folder Sharing", "CDN Integration"],
+    "icon": "FiCloud"
+  },
+  {
+    "id": "prod_04",
+    "name": "Vanguard Security",
+    "description": "Enterprise-grade protection for your digital perimeter. Includes biometric integration and threat detection.",
+    "price": 149.99,
+    "period": "yearly",
+    "tag": "Secure",
+    "tagType": "popular",
+    "features": ["End-to-end Encryption", "Multi-factor Auth", "Penetration Reports", "IP Whitelisting"],
+    "icon": "FiShield"
+  },
+  {
+    "id": "prod_05",
+    "name": "Pulse Automate",
+    "description": "Bridge the gap between your favorite apps with seamless low-code automation workflows.",
+    "price": 0.00,
+    "period": "monthly",
+    "tag": "Free Tier",
+    "tagType": "new",
+    "features": ["1,000 Tasks/mo", "Basic Integrations", "Webhooks Support", "Community Access"],
+    "icon": "FiZap"
+  },
+  {
+    "id": "prod_06",
+    "name": "Ironclad CRM",
+    "description": "Manage relationships with surgical precision. Built for scaling sales and support teams.",
+    "price": 850.00,
+    "period": "one-time",
+    "tag": "Lifetime",
+    "tagType": "best-seller",
+    "features": ["Lead Scoring", "Email Sequencing", "Calendar Sync", "Mobile App Access"],
+    "icon": "FiUsers"
+  },
+  {
+    "id": "prod_07",
+    "name": "Apex Designer",
+    "description": "A collaborative canvas for UI/UX professionals with built-in component libraries.",
+    "price": 19.00,
+    "period": "monthly",
+    "tag": "Trending",
+    "tagType": "new",
+    "features": ["Shared Libraries", "Prototyping Tools", "CSS Code Export", "Review Comments"],
+    "icon": "FiLayers"
+  },
+  {
+    "id": "prod_08",
+    "name": "Quantum Hosting",
+    "description": "Ultra-low latency hosting for Node.js and Laravel applications with global edge nodes.",
+    "price": 120.00,
+    "period": "yearly",
+    "tag": "Value",
+    "tagType": "popular",
+    "features": ["Auto-scaling", "SSL Certificates", "One-click Deploy", "Daily Backups"],
+    "icon": "FiServer"
+  }
+]

@@ -1,6 +1,7 @@
 import React from 'react';
 import { FiShoppingCart } from 'react-icons/fi';
-import GradiantButton from './GradiantButton';
+import GradiantButton from './Buttons/GradiantButton';
+
 
 const Navbar = () => {
   return (
@@ -21,7 +22,7 @@ const Navbar = () => {
               <li className='font-semibold '>FAQ</li>
             </ul>
           </div>
-          <a className="text-2xl font-bold bg-linear-to-b from-[rgba(79,57,246,1)] to-[rgba(149,20,250,1)] bg-clip-text text-transparent">DigiTools</a>
+          <a className="text-2xl font-bold bg-linear-to-r from-[rgba(79,57,246,1)] to-[rgba(149,20,250,1)] bg-clip-text text-transparent">DigiTools</a>
         </div>
 
         <div className="navbar-center hidden xl:flex">
