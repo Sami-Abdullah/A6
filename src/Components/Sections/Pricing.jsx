@@ -18,6 +18,24 @@ const Pricing = () => {
             "Community support",
             "1 project per month"
           ]}  ></PriceCard>
+        <PriceCard isPro={true} price={'0'} type={"Pro"} context={'Best for professionals'}
+          offers={[
+            "Access to all premium tools",
+            "Unlimited templates",
+            "Priority support",
+            "Unlimited projects",
+            "Cloud sync",
+            "Advanced analytics"
+          ]}  ></PriceCard>
+        <PriceCard price={'0'} type={"Starter"} context={'Perfect for getting started'}
+          offers={[
+            "Everything in Pro",
+            "Team collaboration",
+            "Custom integrations",
+            "Dedicated support",
+            "SLA guarantee",
+            "Custom branding"
+          ]}  ></PriceCard>
       </div>
 
     </div>
