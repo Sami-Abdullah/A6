@@ -38,7 +38,7 @@
     "description": "Enterprise-grade protection for your digital perimeter. Includes biometric integration and threat detection.",
     "price": 149.99,
     "period": "yearly",
-    "tag": "Secure",
+    "tag": "Popular",
     "tagType": "popular",
     "features": ["End-to-end Encryption", "Multi-factor Auth", "Penetration Reports", "IP Whitelisting"],
     "icon": "FiShield"
@@ -49,7 +49,7 @@
     "description": "Bridge the gap between your favorite apps with seamless low-code automation workflows.",
     "price": 0.00,
     "period": "monthly",
-    "tag": "Free Tier",
+    "tag": "New",
     "tagType": "new",
     "features": ["1,000 Tasks/mo", "Basic Integrations", "Webhooks Support", "Community Access"],
     "icon": "FiZap"
@@ -60,7 +60,7 @@
     "description": "Manage relationships with surgical precision. Built for scaling sales and support teams.",
     "price": 850.00,
     "period": "one-time",
-    "tag": "Lifetime",
+    "tag": "Best Seller",
     "tagType": "best-seller",
     "features": ["Lead Scoring", "Email Sequencing", "Calendar Sync", "Mobile App Access"],
     "icon": "FiUsers"
@@ -71,7 +71,7 @@
     "description": "A collaborative canvas for UI/UX professionals with built-in component libraries.",
     "price": 19.00,
     "period": "monthly",
-    "tag": "Trending",
+    "tag": "New",
     "tagType": "new",
     "features": ["Shared Libraries", "Prototyping Tools", "CSS Code Export", "Review Comments"],
     "icon": "FiLayers"
@@ -82,9 +82,20 @@
     "description": "Ultra-low latency hosting for Node.js and Laravel applications with global edge nodes.",
     "price": 120.00,
     "period": "yearly",
-    "tag": "Value",
+    "tag": "Popular",
     "tagType": "popular",
     "features": ["Auto-scaling", "SSL Certificates", "One-click Deploy", "Daily Backups"],
     "icon": "FiServer"
+  },
+  {
+    "id": "prod_09",
+    "name": "Nova AI Assistant",
+    "description": "An intelligent assistant that automates workflows, drafts content, and enhances productivity using AI.",
+    "price": 39.99,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": ["Smart Content Generation", "Voice Commands", "Task Automation", "Integration with Apps"],
+    "icon": "FiCpu"
   }
 ]

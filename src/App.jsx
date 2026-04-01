@@ -7,14 +7,13 @@ import Products from "./Components/Sections/Products";
 import Stats from "./Components/Sections/Stats"
 import Workflow from "./Components/Sections/Workflow";
 
-  const data = () => {
-    const promise = fetch('/public/data.json');
-    return promise
-  }
-
+const productsPromise = async () => {
+  const res = await fetch('/public/data.json')
+  return await res.json()
+}
+const promise = productsPromise()
 function App() {
 
-const products= data()
   return (
     <>
       {/* navbar */}
@@ -28,7 +27,7 @@ const products= data()
 
           here there is a product list section for toggling
       */}
-      <Products products={data}></Products>
+      <Products products={promise}></Products>
 
       {/* get started section can i reuse the card*/}
       <GettingStarted></GettingStarted>
