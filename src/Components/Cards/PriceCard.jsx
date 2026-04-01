@@ -5,7 +5,7 @@ import GradiantTextButton from '../Buttons/GradiantTextButton';
 const PriceCard = ({ isPro = false, price, type, context, buttonText = "Get Started Free", offers = [] }) => {
   console.log(offers)
   return (
-    <div className={`card w-72 xl:w-96 mx-auto ${isPro ? 'bg-linear-to-b from-[rgba(79,57,246,1)] to-[rgba(149,20,250,1)] text-white' : 'bg-base-100'} shadow-2xl`}>
+    <div className={`card w-72 xl:w-96 mx-auto ${isPro ? 'bg-linear-to-r from-[rgba(79,57,246,1)] to-[rgba(149,20,250,1)] text-white' : 'bg-base-100'} shadow-2xl`}>
       <div className="card-body relative ">
         {isPro ? <span className="absolute -top-2 left-25 xl:left-40 badge badge-xs badge-warning">Most Popular</span> : ''}
         <div className="">

@@ -24,7 +24,7 @@ const Banner = () => {
         </div>
         <div className='flex gap-4'>
           <GradiantButton text={"Explore Products"} ></GradiantButton>
-          <GradiantTextButton icon={<CiPlay1 ></CiPlay1>} text={"Watch Demo"}> </GradiantTextButton>
+          <GradiantTextButton icon={<CiPlay1 ></CiPlay1>} text={"Watch Demo"} noBorder={false}> </GradiantTextButton>
         </div>
       </div>
       {/* right section */}

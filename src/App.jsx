@@ -3,6 +3,7 @@ import GettingStarted from "./Components/Sections/GettingStarted";
 import Navbar from "./Components/Sections/Navbar"
 import Pricing from "./Components/Sections/Pricing";
 import Stats from "./Components/Sections/Stats"
+import Workflow from "./Components/Sections/Workflow";
 
 
 // const data = ()=>{
@@ -31,6 +32,7 @@ function App() {
       {/* {pricing section with card} */}
       <Pricing></Pricing>
       {/* bottombar */}
+      <Workflow></Workflow>
       {/* footer */}
 
     </>
