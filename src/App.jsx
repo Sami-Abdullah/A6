@@ -1,6 +1,7 @@
 import Banner from "./Components/Sections/Banner"
 import GettingStarted from "./Components/Sections/GettingStarted";
 import Navbar from "./Components/Sections/Navbar"
+import Pricing from "./Components/Sections/Pricing";
 import Stats from "./Components/Sections/Stats"
 
 
@@ -28,6 +29,7 @@ function App() {
       {/* get started section can i reuse the card*/}
       <GettingStarted></GettingStarted>
       {/* {pricing section with card} */}
+      <Pricing></Pricing>
       {/* bottombar */}
       {/* footer */}
 
