@@ -1,8 +1,26 @@
-import React from 'react';
-import GradiantButton from './Buttons/GradiantButton';
+import Toastify from 'toastify-js'
+import "toastify-js/src/toastify.css";
+const ProductItem = ({ product, setCart, cart }) => {
+  console.log(cart);
+  const addToCart = () => {
+    setCart([...cart, product])
+    Toastify({
+      text: `${product.name} add to cart`,
+      duration: 3000,
+      destination: "https://github.com/apvarun/toastify-js",
+      newWindow: true,
+      close: true,
+      gravity: "bottom", // `top` or `bottom`
+      position: "center", // `left`, `center` or `right`
+      stopOnFocus: true, // Prevents dismissing of toast on hover
+      style: {
+        background: "linear-gradient(to right, #00b09b, #96c93d)",
+      },
+      onClick: function () { } // Callback after click
+    }).showToast();
+  }
+  const isSelected = cart.includes(product)
 
-
-const ProductItem = ({ product }) => {
 
   return (
     <div className="card w-full  bg-base-100 shadow-sm">
@@ -11,7 +29,7 @@ const ProductItem = ({ product }) => {
           <span className={`badge-soft ${product.tag === 'Popular' ? 'badge-primary ' : product.tag === 'New' ? 'badge-success' : 'badge-warning'}  badge`}>{product.tag}
           </span>
         </div>
-        
+
         <div className="space-y-5">
 
           <h2 className="text-3xl font-bold">{product.name}</h2>
@@ -30,7 +48,14 @@ const ProductItem = ({ product }) => {
 
         </ul>
         <div className="mt-6">
-          <GradiantButton text={"Buy Now"} isFull={true}></GradiantButton>
+          <button disabled={isSelected} onClick={addToCart}
+
+            className={
+              `btn ${isSelected == false ? 'bg-linear-to-r from-[rgba(79,57,246,1)] to-[rgba(149,20,250,1)]' : 'btn-success'} font-semibold  rounded-full py-3 w-full text-white`
+
+            }>
+            {isSelected ? "Selected" : "Boy now"}
+          </button>
         </div>
       </div>
     </div>

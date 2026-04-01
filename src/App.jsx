@@ -1,3 +1,4 @@
+import { Suspense, useState } from "react";
 import Banner from "./Components/Sections/Banner"
 import Footer from "./Components/Sections/Footer";
 import GettingStarted from "./Components/Sections/GettingStarted";
@@ -13,11 +14,11 @@ const productsPromise = async () => {
 }
 const promise = productsPromise()
 function App() {
-
+  const [cart, setCart] = useState([])
   return (
     <>
       {/* navbar */}
-      <Navbar></Navbar>
+      <Navbar cart={cart}></Navbar>
       {/* banner */}
       <Banner></Banner>
       {/* stats */}
@@ -27,7 +28,9 @@ function App() {
 
           here there is a product list section for toggling
       */}
-      <Products products={promise}></Products>
+      <Suspense>
+        <Products products={promise} cart={cart} setCart={setCart}></Products>
+      </Suspense>
 
       {/* get started section can i reuse the card*/}
       <GettingStarted></GettingStarted>
@@ -37,7 +40,8 @@ function App() {
       <Workflow></Workflow>
       {/* footer */}
       <Footer></Footer>
-
+        
+        
     </>
   )
 }

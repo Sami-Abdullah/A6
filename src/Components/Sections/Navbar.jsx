@@ -3,7 +3,7 @@ import { FiShoppingCart } from 'react-icons/fi';
 import GradiantButton from '../Buttons/GradiantButton';
 
 
-const Navbar = () => {
+const Navbar = ({ cart }) => {
   return (
     <>
       <div className="navbar bg-base-100 shadow-sm md:px-20 lg:px-30 xl:px-52 xl:py-4">
@@ -39,8 +39,11 @@ const Navbar = () => {
         <div className="navbar-end">
           <div className='flex items-center space-x-4'>
 
-            <span> <FiShoppingCart /></span>
+            <span > <FiShoppingCart className='h-6 w-6' /></span>
+            <div className='relative'>
 
+              <span className='absolute -top-5 -left-7 bg-linear-to-r from-[rgba(79,57,246,1)] to-[rgba(149,20,250,1)] text-white text-sm rounded-full text-center h-5 w-5' >{cart.length}</span>
+            </div>
             <span className='font-semibold'>Login</span>
             <span className='hidden md:flex '> <GradiantButton text={"Get Started"}></GradiantButton></span>
 
