@@ -1,6 +1,6 @@
 import React from 'react';
 import { FiShoppingCart } from 'react-icons/fi';
-import GradiantButton from './Buttons/GradiantButton';
+import GradiantButton from '../Buttons/GradiantButton';
 
 
 const Navbar = () => {

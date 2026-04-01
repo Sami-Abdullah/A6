@@ -1,8 +1,8 @@
 import React from 'react';
-import BannerPhoto from '../assets/banner.png'
+import BannerPhoto from '../../assets/banner.png'
 import { CiPlay1 } from 'react-icons/ci';
-import GradiantButton from './Buttons/GradiantButton';
-import GradiantTextButton from './Buttons/GradiantTextButton';
+import GradiantButton from '../Buttons/GradiantButton';
+import GradiantTextButton from '../Buttons/GradiantTextButton';
 const Banner = () => {
   return (
     <div className='w-9/12 mt-20 mx-auto flex flex-col-reverse items-center justify-between lg:flex-row '>

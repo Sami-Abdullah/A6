@@ -1,7 +1,7 @@
-import Banner from "./Components/Banner"
-import GettingStarted from "./Components/GettingStarted";
-import Navbar from "./Components/Navbar"
-import Stats from "./Components/Stats"
+import Banner from "./Components/Sections/Banner"
+import GettingStarted from "./Components/Sections/GettingStarted";
+import Navbar from "./Components/Sections/Navbar"
+import Stats from "./Components/Sections/Stats"
 
 
 // const data = ()=>{
